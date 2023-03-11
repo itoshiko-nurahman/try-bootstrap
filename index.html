@@ -12,7 +12,7 @@
     />
     <title>Homepage</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <!-- nav section start -->
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top"
@@ -72,109 +72,165 @@
     </nav>
     <!-- nav section end -->
 
-    <!-- layout section start -->
-    <div class="container-fluid bg-black text-light" style="height: 100vh">
-      <!-- Carousel start -->
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="/assets/carousel-1.jpg"
-              class="d-block w-100"
-              alt="Jogja City"
-              style="height: 500px; object-fit: cover"
-            />
-            <div class="carousel-caption">
-              <h5>Yogyakarta Monument</h5>
-              <p>
-                The existence of the Jogja monument has a symbolic value as a
-                benchmark for the direction of the sultan to meditate facing
-                Mount Merapi.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/assets/carousel-2.jpg"
-              class="d-block w-100"
-              alt="Jogja Beach"
-              style="height: 500px; object-fit: cover"
-            />
-            <div class="carousel-caption">
-              <h5>Gunung Kidul Beach</h5>
-              <p>
-                Gunung Kidul is regency of Yogyakarta. Beach in here present
-                tourists with white sand and the stone hill.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/assets/carousel-3.jpg"
-              class="d-block w-100"
-              alt="Jogja Mountain"
-              style="height: 500px; object-fit: cover"
-            />
-            <div class="carousel-caption">
-              <h5>Mountain Merapi</h5>
-              <p>
-                Mountain Merapi is located in north Yogyakarta City. The peak at
-                2.910 m and there is beautiful meadow.
-              </p>
-            </div>
-          </div>
-        </div>
+    <!-- Carousel start -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
         <button
-          class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
         <button
-          class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
-      <!-- Carousel end -->
-      <div class="row align-items-center text-center">
-        <div class="col-6">My Home</div>
-        <div class="col-6">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <img
-            src="https://static.vecteezy.com/system/resources/thumbnails/002/227/847/small_2x/programmer-computer-expert-black-linear-icon-vector.jpg"
-            alt="my image"
+            src="/assets/carousel-1.jpg"
+            class="d-block w-100"
+            alt="Jogja City"
+            style="height: 500px; object-fit: cover"
           />
+          <div class="carousel-caption">
+            <h5>Yogyakarta Monument</h5>
+            <p>
+              The existence of the Jogja monument has a symbolic value as a
+              benchmark for the direction of the sultan to meditate facing Mount
+              Merapi.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/assets/carousel-2.jpg"
+            class="d-block w-100"
+            alt="Jogja Beach"
+            style="height: 500px; object-fit: cover"
+          />
+          <div class="carousel-caption">
+            <h5>Gunung Kidul Beach</h5>
+            <p>
+              Gunung Kidul is regency of Yogyakarta. Beach in here present
+              tourists with white sand and the stone hill.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/assets/carousel-3.jpg"
+            class="d-block w-100"
+            alt="Jogja Mountain"
+            style="height: 500px; object-fit: cover"
+          />
+          <div class="carousel-caption">
+            <h5>Mountain Merapi</h5>
+            <p>
+              Mountain Merapi is located in north Yogyakarta City. The peak at
+              2.910 m and there is beautiful meadow.
+            </p>
+          </div>
         </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel end -->
+
+    <!-- layout section start -->
+    <div class="container-fluid text-light" style="height: 100vh">
+      <div class="row align-items-center text-center mt-4">
+        <div class="col-12">
+          <img
+            src="assets/profile.png"
+            alt="my image"
+            width="150"
+            height="150"
+          />
+          <h3 class="mt-2">✨Itoshiko Holiday Place✨</h3>
+          <i
+            >Trusted by <span style="color: brown">1 million</span> tour guide
+            in the world</i
+          >
+        </div>
+      </div>
+      <!-- Card Column Begin -->
+      <div class="row text-dark mt-4">
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Tour With Me</h5>
+              <p class="card-text">
+                Hi, I'm ready to take you to the amazing place all over
+                Yogyakarta City.
+              </p>
+              <a href="#" class="btn btn-dark d-block">Call Me!</a>
+            </div>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+            >
+              💲12
+            </span>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Best Tour Packet</h5>
+              <p class="card-text">
+                Available in many packet that you can choose like your desire.
+              </p>
+              <a href="#" class="btn btn-dark d-block">Choose Packet!</a>
+            </div>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+            >
+              💲99
+            </span>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Special Coupon</h5>
+              <p class="card-text">
+                Come on, get the coupon to travel with me around Yogyakarta for
+                free!!
+              </p>
+              <a href="#" class="btn btn-dark d-block">See More!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card Column End -->
     </div>
     <!-- layout section end -->
     <script
